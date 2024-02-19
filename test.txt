@@ -1,0 +1,12 @@
+void main() {
+  var a = 77;
+  var b = 77;
+
+  if (a == b) {
+    print("Les nombres sont égaux");
+  } else if (a < b) {
+    print("a est plus petit que b");
+  } else {
+    print("b est plus grand que a");
+  }
+}
